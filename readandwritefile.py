@@ -1,0 +1,6 @@
+x = open("sumeet1.txt","w")
+x.write("sumeet is best dancer")
+x.close()
+x = open("sumeet.txt","r")
+print(x.read())
+x.close()
