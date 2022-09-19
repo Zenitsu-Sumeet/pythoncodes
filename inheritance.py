@@ -3,10 +3,10 @@ class A:
         print("Hello Students")
 class B(A):
     def b():
-        print(" Welcome")
+        print("Welcome")
 class C(B):
     def c():
-        print(" TO second home")
+        print("TO second home")
 c1=C
 c1.b()
 c1.a()
