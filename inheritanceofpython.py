@@ -18,13 +18,13 @@ class marks(class2):
     def markscount(self):
         marks=int(input("enter the marks "))
         
-
-obj = class3()
-obj2 = marks()
-obj.display1()
-obj.display2()
-obj.display3()
-print("your have be assigned ")
-print("enter your marks are  ")
-obj2.display2()
-obj2.markscount()
+for i in range(5):
+    obj = class3()
+    obj2 = marks()
+    obj.display1()
+    obj.display2()
+    obj.display3()
+    print("your have be assigned ")
+    print("enter your marks   ")
+    obj2.display2()
+    obj2.markscount()
