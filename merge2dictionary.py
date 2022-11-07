@@ -4,4 +4,4 @@ for i in range(4):
     for j in range(4):
         if list1[i] == list2[j]:
             print(list1[i])
-            print("true")
+            print("true merged succesfull")
